@@ -20,9 +20,9 @@ public class App {
             Image icon = gameIcon.getImage();
             jf.setIconImage(icon);
 
-            // SudokuClass s = new SudokuClass(600, 600);
-            // jf.add(s);
-            // jf.pack();
-            // s.requestFocus();
+            SudokuClass s = new SudokuClass(600, 600);
+            jf.add(s);
+            jf.pack();
+            s.requestFocus();
     }
 }
