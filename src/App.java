@@ -16,7 +16,7 @@ public class App {
         jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         jf.setVisible(true);
 
-        ImageIcon gameIcon = new ImageIcon(ClassLoader.getSystemResource("images/icon.png"));
+        ImageIcon gameIcon = new ImageIcon(ClassLoader.getSystemResource("images/icon.jpg"));
             Image icon = gameIcon.getImage();
             jf.setIconImage(icon);
 
